@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class= container>
+    <div class="container">
+    <div class="jumbotron">
+      <h1>Mac Solutions Private Limited, Chennai</h1>
+    </div>
+    </div>
+    <a href='{% url 'admin:index' %}' class='btn btn-primary'>Admin Page Link</a>
+    <a href='{% url 'index' %}' class='btn btn-primary'>Index Page Link</a>
+    <a href='{% url 'MyApp:careers' %}' class='btn btn-primary'>Career Page Link</a>
+    {% block daddy-block%}
+    {% endblock %}
+  </body>
+</html>

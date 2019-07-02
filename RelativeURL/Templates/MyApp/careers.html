@@ -1,20 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>careers</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body class = container>
-    <h2 class = jumbotron>SRT Solutions L.L.C., a specialty services contractor headquartered in Houston, Texas, provides infrastructure
-repair services to the midstream oil & gas, power generation and industrial plants in America, Canada, Latin
-America and the Caribbean.
-
-SRT Solutions L.L.C. was founded as a spin off from a very successful specialty industrial maintenance company that
-sold its mechanical repair services operations in December 2011. Following the sale of their legacy business,
-the company's founders developed a vision to build an innovative, market-leading, 21st century repair services company.
-
-According to one of the founders, "We will accomplish this vision by adapting various breakthrough technologies (such as fibers and polymers developed for the aerospace and automotive industries and the latest robotic technologies) for industrial repair applications."​</h2>
-
-  </body>
-</html>
+{% extends "MyApp/base.html" %}
+{% block daddy-block %}
+<p class = container>
+MAC Solutions L.L.C., a specialty services contractor headquartered in Houston, Texas,
+provides infrastructure repair services to the midstream oil & gas, power generation and industrial plants
+in America, Canada, Latin America and the Caribbean.MAC Solutions L.L.C. was founded as a spin off from a very
+successful specialty industrial maintenance company that sold its mechanical repair services operations in
+December 2011. Following the sale of their legacy business,the company's founders developed a vision to build
+an innovative, market-leading, 21st century repair services company.According to one of the founders, "We
+will accomplish this vision by adapting various breakthrough technologies (such as fibers and polymers
+developed for the aerospace and automotive industries and the latest robotic technologies) for industrial
+repair applications."​
+</p>
+{% endblock %}
